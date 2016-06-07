@@ -1,0 +1,18 @@
+'scopeName': 'source.nessuskb'
+'name': 'NessusKB'
+'fileTypes': ['kb']
+
+'patterns': [
+    {
+        'match'    : '^(\\d{10}) (\\d) (.*)=(.*)$'
+        'captures' :
+            '1':
+                'name' : 'keyword.date.nessuskb'
+            '2':
+                'name' : 'variable.nessuskb'
+            '3':
+                'name' : 'constant.nessuskb'
+            '4':
+                'name' : 'string.nessuskb'
+    }
+]
